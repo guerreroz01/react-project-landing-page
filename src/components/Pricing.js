@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { BsXDiamondFill } from "react-icons/bs";
 import { GiCrystalize } from "react-icons/gi";
 import { IconContext } from "react-icons/lib";
+import "./Pricing.css";
 
 function Pricing() {
   return (
@@ -20,7 +21,8 @@ function Pricing() {
                     <FaFire />
                   </div>
                   <h3>Starter</h3>
-                  <h4>per month</h4>
+                  <h4>$19.99</h4>
+                  <p>per month</p>
                   <ul className="pricing__container-features">
                     <li>100 Transactions</li>
                     <li>2% Cash Back</li>
@@ -45,7 +47,7 @@ function Pricing() {
                     <li>3.5% Cash Back</li>
                     <li>$100,000 Limit</li>
                   </ul>
-                  <Button buttonSize="btn__wide" buttonColor="primary">
+                  <Button buttonSize="btn__wide" buttonColor="blue">
                     Chose Plan
                   </Button>
                 </div>
